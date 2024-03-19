@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Public Sans", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* top_menu_bar */
+.top_menu_bar {
+  background-color: #1b1d1f;
+}
+
+.top_menu_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 33px;
+  font-size: 13px;
+  color: white;
+}
+
+.barlink > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barlink > ul > li {
+  position: relative;
+  margin: 0 0 0 10px;
+}
+
+.barlink > ul li a {
+  padding: 9px 0 9px 9px;
+  display: inline-block;
+  color: white;
+}
+
+.barlink ul li a:hover {
+  color: #545454;
+}
+
+ul.dropdown_menu {
+  position: absolute;
+  background-color: #1b1d1f;
+  left: -15vw;
+  right: -7vw;
+  display: none;
+  z-index: 5;
+  padding: 10px;
+}
+ul.dropdown_menu li a {
+  color: #545454;
+}
+
+.dropdown_parent:hover .dropdown_menu {
+  display: block;
+}
+
+ul.dropdown_menu li a:hover {
+  color: white;
+}
+
+/*  nav_bottom_menu_bar  */
+.nav_bottom_menu_bar {
+  background-color: white;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+}
+
+.logo {
+  padding: 27px 0;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+.logo svg {
+  height: 30px;
+}
+
+.navlinks ul,
+.iconlinks ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks ul li:first-of-type a {
+  color: rgba(48, 49, 51, 0.5);
+}
+
+.navlinks ul li a,
+.iconlinks ul li a {
+  display: block;
+  height: 30px;
+  padding: 0 14px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #303133;
+}
+.iconlinks ul li:last-of-type a {
+  padding: 0 0 0 14px;
+}
+
+/* backgrund_wallpaper  */
+.backgrund_wallpaper {
+  background-image: url("https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/fabio-alves-HNaC2lbnK_0-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  padding: 15vh 0;
+}
+
+.backgrund_wallpaper_container span {
+  display: block;
+  font-size: 14px;
+  color: white;
+  margin: 0 0 5vh 0;
+  width: 40%;
+}
+
+.backgrund_wallpaper_container span:nth-of-type(2) {
+  font-size: 35px;
+  color: white;
+}
+.backgrund_wallpaper_container span a {
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 14px 36px;
+  color: white;
+}
+
+.backgrund_wallpaper_container span a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* filter_nav */
+.filter_nav_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 36px 0;
+}
+
+.filter_settings{
+  height: 40px;
+}
+
+.filter_settings > ul {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.filter_settings > ul li:first-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+.filter_settings > ul li:first-child > a {
+  display: inline-block;
+}
+
+
+.fa-solid {
+  float: right;
+  margin-left: 2px;
+  padding: 0 0 5px 0;
+}
+
+.dropdown_sort_by {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20vw;
+  bottom: -300px;
+  gap: 10px;
+  right: 0;
+  background-color: #95a1b8;
+}
+.dropdown_sort_by > ul li {
+  /* display: block; */
+}

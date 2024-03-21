@@ -556,7 +556,7 @@ input[type="text"] {
 }
 
 /*  */
-.customer_contact{
+.customer_contact {
   padding: 0 100px;
 }
 .customer_contact > ul {
@@ -578,6 +578,34 @@ input[type="text"] {
 .items_menu li a {
   color: white;
 }
-.customer_contact a:hover{
+.customer_contact a:hover {
   color: red;
+}
+.footer_links {
+  border-bottom: 1px solid #fff;
+}
+/*footer_icon_res  */
+.footer_icon_res {
+  /* margin: 10px 0 0 0; */
+  padding: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_icon_res p{
+  color: white;
+  font-size: 16px;
+}
+.footer_icon_res ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.footer_icon_res > ul li i {
+  color: white;
+  font-size: 16px;
+}
+.footer_icon_res > ul li a:hover i{
+color: red;
 }

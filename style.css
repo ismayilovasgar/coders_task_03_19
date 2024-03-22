@@ -15,6 +15,35 @@
   margin: 0 auto;
   padding: 0;
 }
+/* Panel buttons */
+.panel_btn {
+  position: absolute;
+  background-color: rgb(214, 204, 204);
+  z-index: 20;
+  right: 0;
+  padding: 10px 0;
+}
+.panel_btn ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.panel_btn ul li {
+  width: 50px;
+}
+.panel_btn ul li a {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel_btn ul li a i {
+  padding: 5px;
+  margin: 5px;
+  font-size:18px;
+}
 
 /*  */
 .header_envato_market {
@@ -612,7 +641,7 @@ footer {
 }
 
 .customer_contact {
-  width: calc(70% );
+  width: calc(70%);
   height: 400px;
 }
 .input_bar {
@@ -624,17 +653,39 @@ footer {
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  padding: 2px;
+  padding: 7px 5px;
+  position: relative;
 }
-input[type="text"] {
+input::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  /* bottom: 0; */
+  top: 0;
+  border: 1px solid red;
+  position: absolute;
+  z-index: 5;
+}
+.input_subscribe {
   width: 90%;
   height: 16px;
   background-color: transparent;
   border: 1px solid transparent;
+  position: relative;
 }
-.input_subscribe:focus .input_bar {
-  border: 1px solid red !important;
+input::placeholder {
+  font-size: 15px;
 }
+
+.input_subscribe:focus {
+  outline: transparent;
+  color: white;
+  font-size: 15px;
+}
+/* label:focus .input_bar::after {
+  border: 1px solid red;
+
+} */
 .input_bar a {
   display: inline-block;
   padding: 5px;

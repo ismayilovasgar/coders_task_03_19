@@ -603,7 +603,6 @@ li.parent_extra:hover .dropdown_features {
 /* pagination */
 .pagination {
   position: relative;
-  /* background-color: #82b440; */
 }
 .pagination ul {
   padding: 10px 0;
@@ -721,9 +720,7 @@ input::placeholder {
   color: white;
   font-size: 15px;
 }
-/* label:focus .input_bar::after {
-  border: 1px solid red;
-} */
+
 .input_bar a {
   display: inline-block;
   padding: 5px;

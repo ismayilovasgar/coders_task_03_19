@@ -739,9 +739,9 @@ input::placeholder {
   padding: 2px 20px;
 }
 
-/*  */
+/* customer contact */
 .customer_contact {
-  padding: 0 0 0 100px;
+  padding: 0 0 0 10px;
 }
 .customer_contact > ul {
   display: flex;

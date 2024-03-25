@@ -676,6 +676,7 @@ footer {
   font-size: 18px;
   font-family: 24px;
   line-height: 28px;
+  text-align: justify;
 }
 
 .signup_context {
@@ -683,6 +684,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   height: 50%;
+  gap: 35px;
 }
 
 .customer_contact {

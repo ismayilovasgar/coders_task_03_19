@@ -123,7 +123,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  /* padding: 3px 0 0 0; */
   color: #82b440;
 }
 .preview__envato__logo a {
@@ -418,7 +417,6 @@ li.parent_extra:hover .dropdown_features {
 .dropdown_sort_by {
   position: absolute;
   width: 200%;
-  bottom: -14vw;
   bottom: 0;
   transform: translateY(100%);
   gap: 10px;
